@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Sarabun, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.status-div {
+  position: fixed;
+  right: 0px;
+  margin: 3px;
+  z-index: 9999;
+}
+
+.city-box {
+  text-align: center;
+  background: hsla(0, 0%, 94%, 0.4);
+  border-radius: 3px;
+  border: 1px solid hsla(0, 0%, 94%, 0.5);
+}
+
+.city-box ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-block: 0;
+}
+
+.city-box P {
+  margin: 2px;
+}
+
+.list-city {
+  padding: 1% 2%;
+  left: 0;
+  bottom: 0;
+  height: 170px;
+  background: rgba(33, 33, 33, 0.6);
+  border-radius: 3px;
+  overflow-y: auto;
+}
+
+.tool-bar h1 {
+      margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.list-city #active {
+  background: hsla(0, 0%, 82%, 0.7);
+}
+
+.table-select {
+  padding: 15px;
+}
+
+.btn-city {
+  text-align: left;
+  padding: 1px 15px;
+  border: 0;
+  margin: 5px;
+  font-size: small;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  border-radius: 1px;
+}
+
+.btn-city:hover {
+  background: hsla(0, 0%, 63%, 0.7);
+}
+
+.movement-speed p {
+  text-align: left;
+  margin-left: 15px;
+}
+
+.group-btn-speed {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.group-btn-speed .active {
+  background: hsla(0,0%,82%,.7);
+}
+
+.btn-speed {
+  margin-right: 15px;
+  background: rgba(33, 33, 33, 0.6);
+  color: white;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 2px 8px;
+}
+
+.street-noise {
+  margin: 15px;
+}
+
+.street-noise p {
+  text-align: left;
+}
+
+.street-noise button {
+  background: rgba(33, 33, 33, 0.6);
+  color: white;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 2px 8px;
+  width: 100%;
+}
+
+.street-noise  .active {
+  background: hsla(0,0%,82%,.7);
+}
+
+.sound-page {
+  display: none;
+}
+
+.sound-radio {
+  padding: 10px;
+}
+
+.radio-box {
+  text-align: center;
+  background: hsla(0, 0%, 94%, 0.4);
+  border-radius: 3px;
+  border: 1px solid hsla(0, 0%, 94%, 0.5);
+}
+
+.radio-box p {
+  margin: 2px;
+}
+
+.radio-box .list-option {
+  padding: 1% 2%;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  background: rgba(33, 33, 33, 0.6);
+  border-radius: 3px;
+  overflow-y: auto;
+}
+
+.div-control {
+  margin: 5px 0px;
+}
+
+.css-width-icon {
+  margin: 15px;
+}
+
+.slider {
+  -webkit-appearance: none;
+    width: 90%;
+    height: 2px;
+    border-radius: 2px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: .9;
+    transition: opacity .2s;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center; 
+}
